@@ -1,11 +1,12 @@
 # Brava · Frontend
 
 > Team bootcamp project by [Esra Kesken](https://github.com/esrakesken), [Damaris Castro](https://github.com/damcb1), [Viviana Andrango](https://github.com/alvi103-png), [Beste Ozaydin](https://github.com/BesteOzaydin) and [Mariana Marín](https://github.com/marianamarinflor622).
+> 
 > Original repository, with issues and pull requests: [T4-P2-BravaGym/BravaGym-frontend](https://github.com/T4-P2-BravaGym/BravaGym-frontend)
 
 Brava is a full-stack application for a women's strength-training gym, built as a team bootcamp project. Members can book classes, follow their routines and manage purchases, while trainers and administrators have dedicated workspaces.
 
-This repository contains the React application. It connects to the [Brava backend](https://github.com/T4-P2-BravaGym/BravaGym-backend/tree/dev), which provides the API and database. The application interface is in Spanish.
+This repository contains the React application. It connects to the [Brava backend](https://github.com/esrakesken/BravaGym-backend), which provides the API and database. The application interface is in Spanish.
 
 ## Features
 
