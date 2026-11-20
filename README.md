@@ -34,11 +34,11 @@ The application uses JavaScript. Tests use Testing Library and jsdom. [package.j
 
 Requirements: Git, Node.js **22.12 or later in the 22.x release line**, npm, and the running backend. CI uses Node 22.
 
-1. Set up and start the API using the [backend README](https://github.com/T4-P2-BravaGym/BravaGym-backend/blob/dev/README.md), including migrations and demo data.
+1. Set up and start the API using the [backend README](https://github.com/esrakesken/BravaGym-backend/blob/main/README.md), including migrations and demo data.
 2. In a separate terminal, install and start the frontend:
 
 ```bash
-git clone --branch dev https://github.com/T4-P2-BravaGym/BravaGym-frontend.git
+git clone https://github.com/esrakesken/BravaGym-frontend.git
 cd BravaGym-frontend
 npm ci
 cp .env.example .env
@@ -99,9 +99,9 @@ Use `npm run test:watch` while developing. To preview a build, run `npm run prev
 
 ## Documentation
 
-- [Backend setup and API documentation](https://github.com/T4-P2-BravaGym/BravaGym-backend/blob/dev/README.md).
+- [Backend setup and API documentation](https://github.com/esrakesken/BravaGym-backend/blob/main/README.md).
 - [Route definitions](src/routes/paths.js) and [frontend specifications](specs/).
-- [Session contract](https://github.com/T4-P2-BravaGym/BravaGym-backend/blob/dev/specs/HU-33-refresh-logout.md), [password recovery](https://github.com/T4-P2-BravaGym/BravaGym-backend/blob/dev/specs/HU-35-password-reset.md) and [shared AI-use log](https://github.com/T4-P2-BravaGym/BravaGym-backend/blob/dev/docs/ai-log.md).
+- [Session contract](https://github.com/esrakesken/BravaGym-backend/blob/main/specs/HU-33-refresh-logout.md), [password recovery](https://github.com/esrakesken/BravaGym-backend/blob/main/specs/HU-35-password-reset.md) and [shared AI-use log](https://github.com/esrakesken/BravaGym-backend/blob/main/docs/ai-log.md).
 
 ## Authors and support
 
